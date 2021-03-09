@@ -20,11 +20,11 @@ function App() {
     <div className="App">
       <Router>
       <Menu/>
-      <switch>
+      <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/SignIn" component={SignIn} />
       <Route exact path="/SignUp" component={SignUp} />
-      </switch>
+      </Switch>
       </Router>
     </div>
   );
